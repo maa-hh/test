@@ -1,0 +1,43 @@
+{
+  "groups": [
+    {
+      "name": "tools.ip",
+      "type": "com.example.ipcounter.IpProperties",
+      "sourceType": "com.example.ipcounter.IpProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "tools.ip.cycle",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.ipcounter.IpProperties",
+      "defaultValue": 10
+    },
+    {
+      "name": "tools.ip.cycle-reset",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.ipcounter.IpProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "tools.ip.mode",
+      "type": "java.lang.String",
+      "sourceType": "com.example.ipcounter.IpProperties"
+    }
+  ],
+  "hints": [
+    {
+      "name": "tools.ip.mode",
+      "values": [
+        {
+          "value": "detail",
+          "description": "详细日志模式"
+        },
+        {
+          "value": "simple",
+          "description": "简单日志模式"
+        }
+      ]
+    }
+  ]
+}

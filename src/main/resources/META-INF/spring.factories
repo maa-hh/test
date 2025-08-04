@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.aliyun.oss.config.OssAutoConfiguration
+com.example.ipcounter.IpCpunterConfig
