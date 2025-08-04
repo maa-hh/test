@@ -10,6 +10,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 @EnableConfigurationProperties(OssProperties.class)
 @ConditionalOnProperty(prefix = "aliyun.oss", name = "enabled", havingValue = "true", matchIfMissing = true)
 public class OssAutoConfiguration {
+
     @Bean
     @ConditionalOnMissingBean
     public OssService ossService(OssProperties ossProperties) {
